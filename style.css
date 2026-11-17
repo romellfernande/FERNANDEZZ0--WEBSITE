@@ -303,3 +303,54 @@ footer p {
         grid-template-columns: 1fr;
     }
 }
+
+/* MUSUAN TITANS LOGO */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+}
+
+.logo-emblem {
+    width: 48px;
+    height: 48px;
+    border: 2px solid #e5b52e;
+    background: linear-gradient(145deg, #172b49, #080d18);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(45deg);
+    border-radius: 7px;
+}
+
+.logo-emblem span {
+    color: #e5b52e;
+    font-size: 18px;
+    font-weight: 900;
+    transform: rotate(-45deg);
+    letter-spacing: -2px;
+}
+
+.logo-text h2 {
+    color: #ffffff;
+    font-size: 19px;
+    letter-spacing: 2px;
+}
+
+.logo-text h2 span {
+    color: #e5b52e;
+}
+
+.logo-text small {
+    display: block;
+    color: #b8c1d1;
+    font-size: 9px;
+    letter-spacing: 4px;
+    margin-top: 3px;
+}
