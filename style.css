@@ -48,3 +48,30 @@ a {
 .dark {
     background: var(--dark);
 }
+
+.eyebrow {
+    color: var(--gold);
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 14px;
+}
+
+h2 {
+    font-size: clamp(30px, 4vw, 46px);
+    line-height: 1.15;
+}
+
+h2 span {
+    color: var(--gold);
+}
+
+/* HEADER */
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba(5, 8, 6, .97);
+    border-bottom: 1px solid var(--border);
+}
