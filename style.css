@@ -1,0 +1,26 @@
+:root {
+    --gold: #f5c928;
+    --black: #080b09;
+    --dark: #111713;
+    --panel: #1b241e;
+    --white: #ffffff;
+    --muted: #b9c1ba;
+    --border: #303b33;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--black);
+    color: var(--white);
+    line-height: 1.6;
+}
