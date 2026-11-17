@@ -231,3 +231,75 @@ section {
     font-size: 14px;
     line-height: 1.7;
 }
+
+footer {
+    background-color: #050912;
+    text-align: center;
+    padding: 35px 15px;
+    border-top: 2px solid #d6a928;
+}
+
+footer h2 {
+    color: #e5b52e;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    color: #b8c1d1;
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+.copyright {
+    margin-top: 20px;
+    color: #778397;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 900px) {
+    .objective-container,
+    .feature-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .hero h1 {
+        font-size: 42px;
+    }
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .hero {
+        min-height: 480px;
+        padding: 60px 7%;
+    }
+
+    .hero h1 {
+        font-size: 34px;
+    }
+
+    section {
+        padding: 55px 7%;
+    }
+
+    .section-heading h2 {
+        font-size: 25px;
+    }
+
+    .objective-container,
+    .feature-container {
+        grid-template-columns: 1fr;
+    }
+}
